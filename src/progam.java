@@ -7,8 +7,6 @@ public class progam {
         while (n > 0) {
             sb.append(n%2);
             n = n/2;
-
-
         }
         return sb.reverse().toString();
 
@@ -18,6 +16,6 @@ public class progam {
 
         System.out.print("Enter an integer: ");
         int number = input.nextInt();
-        System.out.println("You entered " + chuyen(number));
+        System.out.println(chuyen(number));
     }
 }
